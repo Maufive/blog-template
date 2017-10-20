@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css?family=Arimo:400,700");
+body {
+  font-family: 'Arimo', Helvetica, sans-serif;
+  color: #eee;
+  box-sizing: border-box;
+  text-align: center; }
+
+h3 {
+  font-size: 2em; }
+
+.divider-primary {
+  border-top: 3px solid #db7093;
+  width: 50px;
+  margin: 15px auto; }
+
+.divider-secondary {
+  border-top: 3px solid #eee;
+  width: 50px;
+  margin: 15px auto; }
+
+.navbar {
+  background: transparent;
+  position: fixed;
+  transition: all 0.5s ease-in;
+  z-index: 2;
+  width: 100%; }
+  .navbar a {
+    color: #eee; }
+  .navbar .navbar-nav {
+    float: right; }
+
+.fixed-nav {
+  background: palevioletred; }
+
+#header {
+  background-image: url("./img/header-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  padding: 10vh 15vw; }
+  #header .jumbotron {
+    background: none; }
+    #header .jumbotron h1 {
+      font-weight: 700;
+      font-size: 3rem; }
+    #header .jumbotron h5 {
+      line-height: 1.3; }
+    #header .jumbotron button {
+      background: #db7093;
+      color: #eee;
+      margin-top: 20px; }
+
+#summary {
+  background: #db7093;
+  color: #eee;
+  padding: 15vh 10vw; }
+  #summary h3 {
+    font-weight: 700; }
+  #summary p {
+    padding: 0 20vw; }
+  #summary button {
+    background: #eee;
+    color: #db7093;
+    margin-top: 20px; }
+
+#services {
+  padding: 15vh 10vw;
+  height: 100%;
+  color: #282828; }
+  #services .divider-primary {
+    margin: 5vh auto; }
+  #services i {
+    font-size: 4em;
+    color: #db7093;
+    margin-top: 20px; }
+  #services .fa {
+    opacity: 0;
+    transition: opacity 1s ease-in-out; }
+  #services .icons-enter {
+    opacity: 1; }
+
+#projekt1 {
+  background-image: url("./img/mat.jpg"); }
+
+#projekt2 {
+  background-image: url("./img/kamera.jpg"); }
+
+#projekt3 {
+  background-image: url("./img/makarons.jpg"); }
+
+#projekt4 {
+  background-image: url("./img/skrivbord.jpg"); }
+
+#projekt5 {
+  background-image: url("./img/keep-exploring.jpg"); }
+
+#projekt6 {
+  background-image: url("./img/frukt.jpg"); }
+
+.tumnagel {
+  height: 250px;
+  background-size: cover;
+  background-position: center; }
+
+.egen-container {
+  padding: 10vh 10vw; }
+
+#download {
+  background: #282828;
+  color: #eee; }
+  #download button {
+    background: #eee;
+    margin-top: 20px; }
+
+#footer {
+  color: #282828;
+  padding: 10vh 20vw; }
+
+/*# sourceMappingURL=index.css.map */
